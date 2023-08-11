@@ -1,4 +1,4 @@
-import React, {useEffect, useCallback, useMemo} from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setProducts } from "../redux/actions/productActions";
 import ProductComponent from './ProductComponent';
@@ -18,6 +18,7 @@ const ProductListing = () => {
 
   useEffect(() => {
     fetchProducts();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   console.log("Products :", products);
