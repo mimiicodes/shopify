@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="nav-right">
           <div className="my-cart-text-div">
-            <h4 className='my-cart-text'>My Cart</h4>
+            <h4 className='my-cart-text'>Cart</h4>
           </div>
           <div className="cart">
             <BsCart4 className='cart-logo'/>
